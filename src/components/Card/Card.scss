@@ -1,0 +1,19 @@
+.card-container{
+    border-radius: 4px;
+    border: 1px solid black;
+
+    position: relative;
+    width: 300px;
+    
+    margin: 0 auto;
+    
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    
+    transition: transform 0.5s ease;
+    img {
+        width: 100%;
+        height: auto;
+      }
+}
